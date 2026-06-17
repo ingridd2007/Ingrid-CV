@@ -13,6 +13,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
+<script>
+const reveals = document.querySelectorAll(".reveal");
+
+window.addEventListener("scroll", () => {
+
+    reveals.forEach(element => {
+
+        const top = element.getBoundingClientRect().top;
+
+        if(top < window.innerHeight - 100){
+            element.classList.add("active");
+        }
+
+    });
+
+});
+</script>
+    
 <body>
 
     <nav>
