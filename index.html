@@ -1,76 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingrid Torres - CV</title>
+    <title>Ingrid Torres | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Ingrid Torres</h1>
-        <p>Estudiante de Programación Full Stack</p>
+    <nav>
+        <div class="logo">Ingrid Torres</div>
+
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <h1>Ingrid Torres</h1>
+
+            <h2>Full Stack Developer Student</h2>
+
+            <p>
+                Estudiante de Programación Full Stack con experiencia en atención al cliente,
+                gestión de proyectos y trabajo en equipo. Apasionada por la tecnología,
+                el aprendizaje continuo y la creación de soluciones digitales.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn">Contactar</a>
+            </div>
+
+        </div>
+
     </header>
 
-    <section>
-        <h2>Perfil Laboral</h2>
-        <p>
-            Persona proactiva y responsable, con experiencia en atención al cliente,
-            gestión de caja y trabajo en equipo. Capacidad para organizar tareas,
-            resolver problemas y adaptarse a distintos entornos laborales.
-            Interés en seguir aprendiendo y asumir nuevos desafíos.
-        </p>
+    <section id="sobre-mi">
+
+        <h2 class="section-title">Sobre mí</h2>
+
+        <div class="card">
+            <p>
+                Soy una persona responsable, organizada y con excelente predisposición para el trabajo.
+                Me adapto fácilmente a nuevos desafíos, aprendo rápido y disfruto trabajar en equipo.
+
+                Actualmente me encuentro cursando la Tecnicatura Universitaria en Programación Full Stack,
+                complementando mi experiencia laboral con conocimientos técnicos en desarrollo web,
+                programación y metodologías ágiles.
+            </p>
+        </div>
+
     </section>
 
-    <section>
-        <h2>Sobre Mí</h2>
-        <p>
-            Soy una persona responsable, organizada y con buena predisposición
-            para el trabajo. Tengo experiencia en atención al cliente, manejo
-            de dinero y trabajo en equipo. Me adapto con facilidad, aprendo
-            rápido y busco oportunidades para crecer profesionalmente.
-        </p>
+    <section id="experiencia">
+
+        <h2 class="section-title">Experiencia</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Pasantía en Desarrollo Web</h3>
+                <p>Bitsion / Ginkgo Soft S.R.L.</p>
+            </div>
+
+            <div class="card">
+                <h3>Emprendimiento de Sushi</h3>
+                <p>Gestión integral del negocio y redes sociales.</p>
+            </div>
+
+            <div class="card">
+                <h3>Mesera</h3>
+                <p>Atención al público y manejo de caja.</p>
+            </div>
+
+            <div class="card">
+                <h3>Lavadero de Autos</h3>
+                <p>Limpieza integral y atención al cliente.</p>
+            </div>
+
+        </div>
+
     </section>
 
-    <section>
-        <h2>Educación</h2>
-        <ul>
-            <li>Primario completo - Colegio Arturo Capdevila</li>
-            <li>Secundario completo - PRoA La Falda</li>
-            <li>Curso de Emprendedurismo - Banco Nación</li>
-            <li>Certificación Internacional Scrum - Scrum Study</li>
-            <li>Tecnicatura Universitaria en Programación Full Stack (cursando)</li>
-        </ul>
+    <section id="educacion">
+
+        <h2 class="section-title">Educación</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Tecnicatura Universitaria en Programación Full Stack</h3>
+                <p>UPC - En curso</p>
+            </div>
+
+            <div class="card">
+                <h3>Certificación Internacional Scrum</h3>
+                <p>Scrum Study</p>
+            </div>
+
+            <div class="card">
+                <h3>Secundario Completo</h3>
+                <p>PRoA La Falda</p>
+            </div>
+
+            <div class="card">
+                <h3>Curso de Emprendedurismo</h3>
+                <p>Banco Nación</p>
+            </div>
+
+        </div>
+
     </section>
 
-    <section>
-        <h2>Experiencia Laboral</h2>
-        <ul>
-            <li>Lavadero de Autos</li>
-            <li>Mesera</li>
-            <li>Emprendimiento gastronómico de Sushi</li>
-            <li>Pasantía en Desarrollo Web - Bitsion / Ginkgo Soft</li>
-        </ul>
+    <section id="habilidades">
+
+        <h2 class="section-title">Habilidades Técnicas</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+                <span>HTML</span>
+                <div class="bar"><div style="width:80%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>CSS</span>
+                <div class="bar"><div style="width:80%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>Git</span>
+                <div class="bar"><div style="width:80%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>Python</span>
+                <div class="bar"><div style="width:85%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>Scrum</span>
+                <div class="bar"><div style="width:85%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>SQL</span>
+                <div class="bar"><div style="width:70%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>C#</span>
+                <div class="bar"><div style="width:50%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>TypeScript</span>
+                <div class="bar"><div style="width:30%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>C++</span>
+                <div class="bar"><div style="width:30%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="bar"><div style="width:20%"></div></div>
+            </div>
+
+        </div>
+
     </section>
 
-    <section>
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Atención al cliente</li>
-            <li>Manejo de caja y dinero</li>
-            <li>Trabajo en equipo</li>
-            <li>Comunicación efectiva</li>
-            <li>Gestión básica de redes sociales</li>
-            <li>Desarrollo Web básico</li>
-        </ul>
-    </section>
+    <section id="contacto">
 
-    <section>
-        <h2>Contacto</h2>
-        <p>Email: torresingridaldana20@gmail.com</p>
-        <p>Teléfono: 3548-414853</p>
+        <h2 class="section-title">Contacto</h2>
+
+        <div class="card">
+
+            <p>📧 torresingridaldana20@gmail.com</p>
+            <p>📱 3548-414853</p>
+            <p>💻 GitHub: ingridd2007</p>
+
+        </div>
+
     </section>
 
 </body>
+
 </html>
