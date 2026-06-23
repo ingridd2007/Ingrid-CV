@@ -338,7 +338,11 @@ section{
 
     height:220px;
 
-    object-fit:cover;
+    object-fit:contain;
+
+    background:white;
+    
+    padding:10px;
 
     border-radius:12px;
 
