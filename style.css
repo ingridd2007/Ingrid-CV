@@ -70,7 +70,7 @@ nav a:hover{
 /* HERO */
 
 .hero{
-    min-height:80vh;
+    min-height:70vh;
 
     display:flex;
     align-items:center;
@@ -165,7 +165,7 @@ nav a:hover{
 /* SECCIONES */
 
 section{
-    padding:80px 8%;
+    padding:60px 8%;
 }
 
 .section-title{
